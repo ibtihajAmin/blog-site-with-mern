@@ -4,12 +4,12 @@ function App() {
   return (
     <main>
       <header>
-        <a href="" className="logo">
+        <a href="http://localhost:3000/" className="logo">
           My Blog
         </a>
         <nav>
-          <a href="">Login</a>
-          <a href="">Register</a>
+          <a href="http://localhost:3000/">Login</a>
+          <a href="http://localhost:3000/">Register</a>
         </nav>
       </header>
       <div className="post">
@@ -26,7 +26,9 @@ function App() {
             from Meta
           </h2>
           <p className="info">
-            <a className="author">David Malan</a>
+            <a href="http://localhost:3000/" className="author">
+              David Malan
+            </a>
             <time>2023-05-06 21:40</time>
           </p>
           <p className="summary">
@@ -50,7 +52,9 @@ function App() {
             from Meta
           </h2>
           <p className="info">
-            <a className="author">David Vila</a>
+            <a href="http://localhost:3000/" className="author">
+              David Vila
+            </a>
             <time>2023-05-06 21:40</time>
           </p>
           <p className="summary">
@@ -74,7 +78,9 @@ function App() {
             from Meta
           </h2>
           <p className="info">
-            <a className="author">Jason Malan</a>
+            <a href="http://localhost:3000/" className="author">
+              Jason Malan
+            </a>
             <time>2023-05-06 21:40</time>
           </p>
           <p className="summary">
