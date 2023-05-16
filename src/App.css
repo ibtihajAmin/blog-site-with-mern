@@ -11,7 +11,7 @@ img {
 
 main {
   padding: 10px;
-  max-width: 700px;
+  max-width: 800px;
   margin: 0 auto;
 }
 
@@ -43,20 +43,32 @@ div.post {
 }
 
 div.post img {
-  width: 80%;
+  width: 100%;
   height: auto;
 }
 
 div.post {
   display: grid;
-  grid-template-columns: 0.9fr 1.1fr;
+  grid-template-columns: 1fr;
   margin-bottom: 30px;
+  gap: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  div.post {
+    grid-template-columns: 0.9fr 1.1fr;
+  }
 }
 
 div.post div.texts h2 {
   margin: 0;
   font-size: 1.8rem;
   margin-top: -5px;
+}
+
+div.post div.texts a {
+  text-decoration: none;
+  color: inherit;
 }
 
 div.post p.info {
@@ -108,3 +120,44 @@ form.login h1,
 form.register h1 {
   text-align: center;
 }
+
+div.post-page div-image {
+  max-height: 200px;
+  display: flex;
+  overflow: hidden;
+}
+
+div.post-page div.image img {
+  object-fit: cover;
+  object-position: center center;
+  width: 100%;
+}
+
+div.post-page a {
+  color: #333;
+}
+
+div.post-page h1 {
+  text-align: center;
+  margin: 10px 0.5px;
+}
+
+div.post-page time {
+  text-align: center;
+  display: block;
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: #999898;
+}
+
+div.post-page div.author {
+  text-align: center;
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: #2b2b2b;
+  margin-bottom: 25px;
+}
+
+/* div.post-page div.content p {
+  line-height: 1.6rem;
+} */
