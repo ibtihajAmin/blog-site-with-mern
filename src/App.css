@@ -158,6 +158,22 @@ div.post-page div.author {
   margin-bottom: 25px;
 }
 
-/* div.post-page div.content p {
-  line-height: 1.6rem;
-} */
+div.edit-row {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+div.post-page a.edit-btn {
+  background-color: #888;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+a svg {
+  height: 20px;
+}
