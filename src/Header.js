@@ -27,13 +27,16 @@ export default function Header() {
   return (
     <header>
       <Link to="/" className="logo">
-        WriteTech
+        <span className="write">Write</span>
+        <span className="tech">Tech</span>
       </Link>
       <nav>
         {username && (
           <>
             <Link to="/create">Write New Post</Link>
-            <a onClick={logout}>Logout</a>
+            <a onClick={logout} className="logout">
+              Logout
+            </a>
           </>
         )}
         {!username && (

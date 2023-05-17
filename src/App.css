@@ -33,9 +33,18 @@ header a.logo {
   font-size: 1.5rem;
 }
 
+header .logo .write,
+.tech {
+  color: #1d267d;
+}
+
 header nav {
   display: flex;
   gap: 15px;
+}
+
+header nav .logout {
+  cursor: pointer;
 }
 
 div.post {
