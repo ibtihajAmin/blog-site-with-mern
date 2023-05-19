@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# WriteTech a full stack mern blog site
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+## Overview 
 
-### `npm start`
+This is a full-stack project. Whereas, for database MongoDB is used, for server side Node and Express js are used and for
+client side React js is used. Also JWT web token is used for credentials encryption and user authorization.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
+1. Users can read the blog post as guest.
+2. User can do register and login both
+3. Every registered user can update his/her published post properly
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## How to run the project in local environment?
+1. Clone/Download the source code of this project
+2. Also clone/ download the server-side (https://github.com/ibtihajAmin/blog-site-with-mern-server)
+3. Install the node_modules
+4. run the client side by `npm start` & server side `npx nodemon index` 
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Demo Screenshots of Project
+- Initial view after running the site
 
-### `npm run build`
+![01](https://github.com/ibtihajAmin/blog-site-with-mern/assets/71367713/536e405d-a736-4d7f-9fad-452cc9e530a4)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Register Page
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![02](https://github.com/ibtihajAmin/blog-site-with-mern/assets/71367713/387c2f21-f48b-4f38-a362-07a99e302349)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Successful message has come after registration
 
-### `npm run eject`
+![03](https://github.com/ibtihajAmin/blog-site-with-mern/assets/71367713/d383eca2-4cc8-4815-be2a-b1befa0f5c7f)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Login page
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![04](https://github.com/ibtihajAmin/blog-site-with-mern/assets/71367713/525b4863-9c48-4c2d-9d9f-8dcd3a70ca1b)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- After login, page is redirected to the main page and all posts are visible.
+- There is an option for writing a post on the top from the right corner
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![05](https://github.com/ibtihajAmin/blog-site-with-mern/assets/71367713/caaf0ed9-d08e-4bde-b00d-7e1ef05ba7dc)
 
-## Learn More
+- View of the single blog post [1/2]
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![06](https://github.com/ibtihajAmin/blog-site-with-mern/assets/71367713/d10058b1-2026-4954-8926-52f75f46e7cd)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- View of the single blog post [2/2]
 
-### Code Splitting
+![07](https://github.com/ibtihajAmin/blog-site-with-mern/assets/71367713/b0084fbe-0a3e-4a49-b63f-95f3cdde20fd)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- This is the page for writing a blog post. Only registered user can access this page
 
-### Analyzing the Bundle Size
+![08](https://github.com/ibtihajAmin/blog-site-with-mern/assets/71367713/66c17c5a-6969-4d07-8e36-9fa1f47662e3)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- View of the writing a blog post
 
-### Making a Progressive Web App
+![09](https://github.com/ibtihajAmin/blog-site-with-mern/assets/71367713/717e2891-6ca4-40f9-8b77-13c11e15990d)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- After writing the post, the post has been shown successfully on the main page of the top
+- Also the author name and the post time and date are shown
 
-### Advanced Configuration
+![10](https://github.com/ibtihajAmin/blog-site-with-mern/assets/71367713/514eadf7-a8a6-4b7f-bdb7-568a6729fb72)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Overview of the created post
 
-### Deployment
+![11](https://github.com/ibtihajAmin/blog-site-with-mern/assets/71367713/c6e22a85-b0ca-4991-a61e-2c0a381fa7f9)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- Doing editing on the recently created post. Editing part is being highlight with yellow color.
 
-### `npm run build` fails to minify
+![12](https://github.com/ibtihajAmin/blog-site-with-mern/assets/71367713/849b3971-de1b-4b1b-b0ba-756098150beb)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- After editing the post, the change has been noticed
+
+![13](https://github.com/ibtihajAmin/blog-site-with-mern/assets/71367713/d7ed9e05-08f6-4c15-af86-e76c8e3a7ddb)
+
+
